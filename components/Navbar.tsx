@@ -30,6 +30,12 @@ export default function Navbar() {
           >
             뉴스
           </Link>
+          <Link
+            href="/mail"
+            className="text-sm text-gray-600 transition-colors hover:text-gray-900"
+          >
+            메일관리
+          </Link>
         </div>
 
         {/* Right side links */}
